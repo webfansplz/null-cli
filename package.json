@@ -23,15 +23,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webfansplz/mamba-cli.git"
+    "url": "git+https://github.com/webfansplz/null-cli.git"
   },
   "keywords": [],
   "author": "null",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webfansplz/mamba-cli/issues"
+    "url": "https://github.com/webfansplz/null-cli/issues"
   },
-  "homepage": "https://github.com/webfansplz/mamba-cli#readme",
+  "homepage": "https://github.com/webfansplz/null-cli#readme",
   "dependencies": {
     "address": "^1.1.2",
     "chalk": "^3.0.0",
