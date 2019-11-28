@@ -21,9 +21,9 @@ test('dec api for hex', t => {
 
 test('dec api for aes', t => {
   t.deepEqual(
-    dec('b2c17c9dc93065477b5ce37464f1b330', {
+    dec('cea47c666b605fdb0fd23223476d4ed7', {
       method: 'aes',
-      key: 'mambalikeweb2019',
+      key: '20201111nullbest',
       iv: 'webbestlangworld',
     }),
     'hello-world',

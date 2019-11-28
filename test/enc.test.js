@@ -3,83 +3,83 @@ const enc = require('../lib/enc')
 
 test('enc api for sha1', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'sha1',
     }),
-    '1a2d8803c0c54ea0163920e71acf8cde986dcd34',
+    'a0071acf7a33712783545db8b4a7a89f0a35013d',
   )
 })
 
 test('enc api for sha224', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'sha224',
     }),
-    '5685b7ce66ca7e7619352874d2b2d6683a93712fbafb053bda5ba1fe',
+    '1b0dcf9ea78c755266cf0d1d652d741fa4112770fef5889f9411c090',
   )
 })
 
 test('enc api for sha256', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'sha256',
     }),
-    '362022bfac90f466c7ddbdfa8d40da38e041671d28daee9c320bfc57d224b357',
+    'fe8f4fa399ff4888b4d393c8dd09ba35385db71e12d627d83cc65d89ba83fc9b',
   )
 })
 
 test('enc api for sha384', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'sha384',
     }),
-    'de44a9be2bfc43daa21f4e699a716e34312ed155a81a06866dd856cce391f7efb0329ab314f75c493ab59b03d5f0fd56',
+    'c366ef75eb44fd3839bc1edb980b3c4907d78541ec2a30f7d20d228eb7b77563aaffce492f26d84bd0a5c8cffcedebc4',
   )
 })
 
 test('enc api for sha512', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'sha512',
     }),
-    'b65649bd5ab246840a029f2d9578d76b0ec9cc0c08516060205a7392bcc213933060b57b8674c742b815677ba476ab62762a5c986bbf9aef077fe02321d90151',
+    '72d921a66c4d2ed07a282cc9be1a804e4409a12bf77acefd9977d8b9d170556b70546769944d3c853a5e788999495742109940935f8463eeac6aba7507ac2883',
   )
 })
 
 test('enc api for md5', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'md5',
     }),
-    '7e0663c675a94e36e3716fc25b4dc4c7',
+    '91732209f7c84dd6119c81fd8b1a9669',
   )
 })
 
 test('enc api for base64', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'base64',
     }),
-    'bWFtYmEtY2xp',
+    'bnVsbC1jbGk=',
   )
 })
 
 test('enc api for hex', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'hex',
     }),
-    '6d616d62612d636c69',
+    '6e756c6c2d636c69',
   )
 })
 
 test('enc api for aes', t => {
   t.deepEqual(
-    enc('mamba-cli', {
+    enc('null-cli', {
       method: 'aes',
-      key: 'mambalikeweb2019',
+      key: '20201111nullbest',
       iv: 'webbestlangworld',
     }),
-    'd9abbab81e29ba7183bd5767969e7b1a',
+    'b425ed8b1698de56aed3d1089ade239d',
   )
 })
