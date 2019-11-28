@@ -17,7 +17,7 @@ function checkNodeVersion(wanted, id) {
   }
 }
 
-checkNodeVersion(requiredVersion, 'mamba-cli')
+checkNodeVersion(requiredVersion, 'null-cli')
 
 if (semver.satisfies(process.version, '9.x')) {
   console.log(
@@ -49,7 +49,7 @@ function cleanArgs(cmd) {
 }
 
 program
-  .version(`mamba-cli ${require('../package.json').version}`)
+  .version(`null-cli ${require('../package.json').version}`)
   .usage('<command> [options]')
 
 function verifyArgs(name) {
@@ -86,7 +86,7 @@ program
   .command('enc <string>')
   .description('enc String')
   .option('-m, --method <method>', ' Which method to use  ', 'base64')
-  .option('-k, --key <key>', ' Aes encryption key ', 'mambalikeweb2019')
+  .option('-k, --key <key>', ' Aes encryption key ', '20201111nullbest')
   .option('-i, --iv <iv>', ' Aes encryption iv ', 'webbestlangworld')
   .action((name, cmd) => {
     const options = cleanArgs(cmd)
@@ -98,7 +98,7 @@ program
   .command('dec <string>')
   .description('dec  String')
   .option('-m, --method <method>', ' Which method to use ', 'base64')
-  .option('-k, --key <key>', ' Aes decryption key ', 'mambalikeweb2019')
+  .option('-k, --key <key>', ' Aes decryption key ', '20201111nullbest')
   .option('-i, --iv <iv>', ' Aes decryption iv ', 'webbestlangworld')
   .action((name, cmd) => {
     const options = cleanArgs(cmd)
@@ -153,7 +153,7 @@ program
 
 program
   .command('create <app-name>')
-  .description('create a new probject by mamba-cli')
+  .description('create a new probject by null-cli')
   .option('-f, --force', 'Overwrite target directory if it exists')
   .action((name, cmd) => {
     const options = cleanArgs(cmd)
@@ -166,7 +166,7 @@ program.on('--help', () => {
   console.log()
   console.log(
     `  Run ${chalk.cyan(
-      'mamba <command> --help',
+      'null <command> --help',
     )} for detailed usage of given command.`,
   )
   console.log()

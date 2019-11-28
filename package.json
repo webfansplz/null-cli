@@ -1,10 +1,10 @@
 {
-  "name": "mamba-cli",
+  "name": "null-cli",
   "version": "1.0.0",
   "description": "A command to free your hands",
   "main": "index.js",
   "bin": {
-    "mamba": "bin/mamba.js"
+    "null": "bin/null.js"
   },
   "scripts": {
     "cz": "commitizen init cz-conventional-changelog --save --save-exact",
@@ -26,7 +26,7 @@
     "url": "git+https://github.com/webfansplz/mamba-cli.git"
   },
   "keywords": [],
-  "author": "mamba",
+  "author": "null",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webfansplz/mamba-cli/issues"
