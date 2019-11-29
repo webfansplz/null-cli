@@ -7,7 +7,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'Null-cli',
-      description: 'A command to free your hands',
+      description: 'One line of command increases your productivity',
     },
   },
   head: [
@@ -61,6 +61,7 @@ module.exports = {
           title: '命令',
           collapsable: false,
           children: [
+            'compress',
             'fetch',
             'youdao',
             'open',
@@ -77,4 +78,4 @@ module.exports = {
       ],
     },
   },
-}
+};

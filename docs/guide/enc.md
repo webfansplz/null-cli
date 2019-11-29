@@ -4,6 +4,8 @@
   null enc <string>
 ```
 
+> 字符串编码/AES 加密
+
 ![enc](/enc.gif)
 
 ![aes](/aes.gif)

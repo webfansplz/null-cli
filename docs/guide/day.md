@@ -4,6 +4,8 @@
 $ null day <params>
 ```
 
+> 日期格式转换,时间戳和字符串互转
+
 ![day](/day.gif)
 
 ## 参数

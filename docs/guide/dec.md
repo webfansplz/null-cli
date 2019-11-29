@@ -4,6 +4,8 @@
   null dec <string>
 ```
 
+> 字符串解码/AES 解密
+
 ![enc](/enc.gif)
 
 ![aes](/aes.gif)
