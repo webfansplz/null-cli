@@ -4,6 +4,8 @@
 null serve <path>
 ```
 
+> 指定工程启动 web 服务器
+
 ![serve](/serve.gif)
 
 ## 参数

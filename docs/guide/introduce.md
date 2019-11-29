@@ -10,4 +10,4 @@
 
 而是希望减少你使用 CV 大法的频率 , 避免你 Switch applications 的繁琐 。:punch:
 
-:fire: We hope , A command frees your hands 。 :tada:
+:fire: We hope , One line of command increases your productivity 。 :tada:

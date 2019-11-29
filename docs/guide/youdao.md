@@ -4,6 +4,8 @@
 null youdao <word>
 ```
 
+> 支持中英文翻译,根据传入的 word 自动识别中英文
+
 ![youdao](/youdao.gif)
 
 ```js
