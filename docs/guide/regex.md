@@ -4,6 +4,8 @@
 $ null regex
 ```
 
+> 常用正则表达式列表
+
 ![regex](/regex.gif)
 
 ## 表达式列表
