@@ -10,7 +10,9 @@
     "cz": "commitizen init cz-conventional-changelog --save --save-exact",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint": "eslint --fix lib/**/*.js bin/*.js utils/*.js",
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "ava": {
     "files": [
