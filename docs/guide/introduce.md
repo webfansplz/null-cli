@@ -1,13 +1,9 @@
 # 介绍
 
-![introduce](/null.png)
+Are you tired of repetitive work :question:
 
-:man_technologist:在日常开发工作中,
+Are you still looking for features in different applications :question:
 
-我们经常会做一些重复性劳动,也经常需要在不同应用中来回切换。 :woman_technologist:
+Please download :star2: null-cli :star2: to make it easier :exclamation:
 
-:star2:null-cli 的目标,当然不是没有蛀牙,
-
-而是希望减少你使用 CV 大法的频率 , 避免你 Switch applications 的繁琐 。:punch:
-
-:fire: We hope , One line of command increases your productivity 。 :tada:
+:fire: We hope ,A command makes you more efficient。 :tada:
