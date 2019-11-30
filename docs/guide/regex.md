@@ -1,10 +1,10 @@
 # 正则表达式
 
+> 常用正则表达式
+
 ```shell
 $ null regex
 ```
-
-> 常用正则表达式列表
 
 ![regex](/regex.gif)
 

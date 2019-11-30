@@ -4,8 +4,6 @@
 $ null create <probject-name>
 ```
 
-> 创建模版工程
-
 ![create](/create-koa.gif)
 
 ## 参数

@@ -6,8 +6,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Null-cli',
-      description: 'One line of command increases your productivity',
+      title: 'null-cli',
+      description: 'A command makes you more efficient',
     },
   },
   head: [
