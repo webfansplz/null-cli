@@ -4,9 +4,9 @@
   null dec <string>
 ```
 
-![enc](/enc.gif)
+![enc](/null-cli/enc.gif)
 
-![aes](/aes.gif)
+![aes](/null-cli/aes.gif)
 
 ## 字符串解码 参数
 

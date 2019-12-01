@@ -4,7 +4,7 @@
 $ null create <probject-name>
 ```
 
-![create](/create-koa.gif)
+![create](/null-cli/create-koa.gif)
 
 ## 参数
 

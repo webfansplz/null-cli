@@ -6,7 +6,7 @@
 $ null day <params>
 ```
 
-![day](/day.gif)
+![day](/null-cli/day.gif)
 
 ## 参数
 

@@ -6,7 +6,7 @@
 null serve <path>
 ```
 
-![serve](/serve.gif)
+![serve](/null-cli/serve.gif)
 
 ## 参数
 

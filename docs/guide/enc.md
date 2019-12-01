@@ -4,9 +4,9 @@
   null enc <string>
 ```
 
-![enc](/enc.gif)
+![enc](/null-cli/enc.gif)
 
-![aes](/aes.gif)
+![aes](/null-cli/aes.gif)
 
 ## 字符串编码 参数
 

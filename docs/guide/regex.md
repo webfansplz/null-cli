@@ -6,7 +6,7 @@
 $ null regex
 ```
 
-![regex](/regex.gif)
+![regex](/null-cli/regex.gif)
 
 ## 表达式列表
 
