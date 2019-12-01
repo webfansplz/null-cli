@@ -20,7 +20,7 @@ yarn add null-cli -g
 
 ### Documentation
 
-📚[Docs Guide](./docs/en/Installation.md)
+📚[Docs Guide](https://webfansplz.github.io/null-cli/)
 
 # License
 
