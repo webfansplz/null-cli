@@ -6,7 +6,7 @@
 null youdao <word>
 ```
 
-![youdao](/youdao.gif)
+![youdao](/null-cli/youdao.gif)
 
 ```js
 

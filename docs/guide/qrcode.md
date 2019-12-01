@@ -6,4 +6,4 @@
 $ null qrcode <url>
 ```
 
-![qrcode](/qrcode.gif)
+![qrcode](/null-cli/qrcode.gif)

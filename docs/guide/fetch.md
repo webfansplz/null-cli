@@ -6,4 +6,4 @@
 $ null fetch <url>
 ```
 
-![fetch](/fetch.gif)
+![fetch](/null-cli/fetch.gif)

@@ -6,4 +6,4 @@
 $ null random <length>
 ```
 
-![random](/random.gif)
+![random](/null-cli/random.gif)

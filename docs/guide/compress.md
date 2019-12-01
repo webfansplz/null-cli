@@ -6,4 +6,4 @@
 $ null compress <file>
 ```
 
-![compress](/compress.gif)
+![compress](/null-cli/compress.gif)
