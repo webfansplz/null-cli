@@ -1,6 +1,6 @@
 # ✨ null-cli 来啦 🎉 一行命令提高你的效率 🚀
 
-<!-- ![null](./docs/.vuepress/public/null.png) -->
+<!-- ![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/null.png) -->
 
 ## null-cli 是什么 ？
 
@@ -26,19 +26,19 @@
 
 > 压缩指定文件,file 文件类型可以是文件夹或者单个文件路径,文件夹路径会自动压缩该文件夹所有的 html/css/js 文件(支持文件类型 : html/css/js)。
 
-![null](./docs/.vuepress/public/compress.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/compress.gif)
 
 ### 2. 网络请求
 
 > 发送 http 请求,目前只支持无头 get 请求 ~ (在命令行拼 header,body 感觉很繁琐,不如 postman 便捷)
 
-![null](./docs/.vuepress/public/fetch.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/fetch.gif)
 
 ### 3. 有道翻译
 
 > 支持中英文翻译,根据传入的 word 自动识别中英文
 
-![null](./docs/.vuepress/public/youdao.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/youdao.gif)
 
 ### 4. 打开浏览器
 
@@ -52,23 +52,23 @@ $ null open <url>
 
 > 生成指定 url 的二维码
 
-![null](./docs/.vuepress/public/qrcode.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/qrcode.gif)
 
 ### 6. 正则表达式
 
 > 常用正则表达式
 
-![null](./docs/.vuepress/public/regex.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/regex.gif)
 
 ### 7. 生成随机数
 
 > 生成指定长度的随机数
 
-![null](./docs/.vuepress/public/random.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/random.gif)
 
 ### 8. 创建模版工程
 
-![null](./docs/.vuepress/public/create-koa.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/create-koa.gif)
 
 v1 提供了 4 类基础模版 ,v2 将对模版进行细化。
 
@@ -84,19 +84,19 @@ v1 提供了 4 类基础模版 ,v2 将对模版进行细化。
 
 > 日期格式转换,时间戳和字符串互相转换
 
-![null](./docs/.vuepress/public/day.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/day.gif)
 
 ### 10. 启动 web 服务器
 
 > 指定工程启动 web 服务器
 
-![null](./docs/.vuepress/public/serve.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/serve.gif)
 
 ### 11. 字符串编解码/AES 加解密
 
-![null](./docs/.vuepress/public/enc.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/enc.gif)
 
-![null](./docs/.vuepress/public/aes.gif)
+![null](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/aes.gif)
 
 ## 如何使用 null-cli ?
 

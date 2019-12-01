@@ -1,5 +1,5 @@
 <p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="550"
-                                                                             src="./docs/.vuepress/public/null.png"
+                                                                             src="https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/null.png"
                                                                             ></a></p>
 
 <p align="center">A <b>command</b> makes you more efficient</p>
@@ -16,7 +16,7 @@ yarn add null-cli -g
 
 ### API
 
-![api](./docs/.vuepress/public/null-command.png)
+![api](https://raw.githubusercontent.com/webfansplz/null-cli/master/docs/.vuepress/public/null-command.png)
 
 ### Documentation
 
