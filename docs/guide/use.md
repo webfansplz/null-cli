@@ -1,3 +1,3 @@
 # 使用
 
-![use](/null-command.png)
+![use](/null-cli/null-command.png)
