@@ -160,6 +160,20 @@ program
     require('../lib/dec')(name, options);
   });
 
+program
+  .command('search <keyword>')
+  .option('-n, --npm', 'search by npm')
+  .option('-s, --stackoverflow', 'search by stackoverflow')
+  .option('-w, --wiki', 'search by wiki')
+  .option('-b, --baidu', 'search by baidu')
+  .option('-g, --github', 'search by github')
+  .description('quick search by google')
+  .action((name, cmd) => {
+    const options = cleanArgs(cmd);
+    verifyArgs('Keyword');
+    require('../lib/search')(name, options);
+  });
+
 // add some useful info on help
 program.on('--help', () => {
   console.log();
