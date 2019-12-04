@@ -167,7 +167,9 @@ program
   .option('-w, --wiki', 'search by wiki')
   .option('-b, --baidu', 'search by baidu')
   .option('-g, --github', 'search by github')
-  .description('quick search by google')
+  .option('-d, --default', 'search by google')
+  .option('-a, --all', 'search by all sites')
+  .description('quick search single or mutiple')
   .action((name, cmd) => {
     const options = cleanArgs(cmd);
     verifyArgs('Keyword');
