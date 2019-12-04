@@ -65,6 +65,7 @@ module.exports = {
             'fetch',
             'youdao',
             'open',
+            'search',
             'qrcode',
             'regex',
             'random',
