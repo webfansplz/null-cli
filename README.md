@@ -10,8 +10,8 @@
 
 ```shell
 npm install null-cli -g
-
-yarn add null-cli -g
+# OR
+yarn global add null-cli
 ```
 
 ### API

@@ -1,6 +1,6 @@
 {
   "name": "null-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "One line of command increases your productivity",
   "main": "index.js",
   "bin": {

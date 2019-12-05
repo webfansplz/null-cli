@@ -9,5 +9,5 @@ $ npm install null-cli -g
 **YARN**
 
 ```shell
-$ yarn add null-cli -g
+$ yarn global add null-cli
 ```

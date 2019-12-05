@@ -61,11 +61,11 @@ module.exports = {
           title: '命令',
           collapsable: false,
           children: [
+            'search',
             'compress',
             'fetch',
             'youdao',
             'open',
-            'search',
             'qrcode',
             'regex',
             'random',
