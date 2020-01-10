@@ -6,6 +6,7 @@ module.exports = {
   rules: {
     semi: 0,
     indent: 0,
+    'no-undef': 0,
     'import/no-extraneous-dependencies': 0,
     'no-console': 0,
     'global-require': 0,

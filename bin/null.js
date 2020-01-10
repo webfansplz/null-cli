@@ -21,9 +21,9 @@ checkNodeVersion(requiredVersion, 'null-cli');
 if (semver.satisfies(process.version, '9.x')) {
   console.log(
     chalk.red(
-      `You are using Node ${process.version}.\n`
-        + 'Node.js 9.x has already reached end-of-life and will not be supported in future major releases.\n'
-        + "It's strongly recommended to use an active LTS version instead.",
+      `You are using Node ${process.version}.\n` +
+        'Node.js 9.x has already reached end-of-life and will not be supported in future major releases.\n' +
+        "It's strongly recommended to use an active LTS version instead.",
     ),
   );
 }
@@ -56,6 +56,13 @@ function verifyArgs(name) {
     );
   }
 }
+program
+  .command('perf <url>')
+  .description('web performance')
+  .action(name => {
+    verifyArgs('Url');
+    require('../lib/performance')(name);
+  });
 program
   .command('compress <file>')
   .description('Compress file')
@@ -190,7 +197,7 @@ program.on('--help', () => {
 program.commands.forEach(c => c.on('--help', () => console.log()));
 
 function enhanceErrorMessages(methodName, log) {
-  program.Command.prototype[methodName] = function (...args) {
+  program.Command.prototype[methodName] = function(...args) {
     if (methodName === 'unknownOption' && this._allowUnknownOption) {
       return;
     }
@@ -213,7 +220,8 @@ enhanceErrorMessages(
 
 enhanceErrorMessages(
   'optionMissingArgument',
-  (option, flag) => `Missing required argument for option ${chalk.yellow(option.flags)}${
+  (option, flag) =>
+    `Missing required argument for option ${chalk.yellow(option.flags)}${
       flag ? `, got ${chalk.yellow(flag)}` : ''
     }`,
 );
