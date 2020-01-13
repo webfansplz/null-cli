@@ -65,6 +65,7 @@ module.exports = {
             'compress',
             'fetch',
             'youdao',
+            'performance',
             'open',
             'qrcode',
             'regex',
